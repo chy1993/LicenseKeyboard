@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00ffffff"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#F0EFF4"
+            android:layout_above="@+id/llKeyboardView"
+            android:id="@+id/ll_license_input_boxes_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_car_license_inputbox1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <EditText
+                android:id="@+id/et_car_license_inputbox2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <EditText
+                android:id="@+id/et_car_license_inputbox3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <EditText
+                android:id="@+id/et_car_license_inputbox4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <EditText
+                android:id="@+id/et_car_license_inputbox5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <EditText
+                android:id="@+id/et_car_license_inputbox6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <EditText
+                android:id="@+id/et_car_license_inputbox7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:id="@+id/llKeyboardView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <android.inputmethodservice.KeyboardView
+            android:keyPreviewLayout="@layout/key_preview_layout"
+            android:id="@+id/keyboard_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#F0EFF4"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@android:color/white"
+            android:keyTextColor="#5E5E5E"
+            android:keyTextSize="18sp"
+            android:labelTextSize="18sp"
+            android:shadowColor="#ffffff"
+            android:shadowRadius="0.0"
+            android:visibility="visible" />
+    </LinearLayout>
+</RelativeLayout>

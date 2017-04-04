@@ -13,6 +13,7 @@ import android.widget.RelativeLayout;
 
 /**
  * Created by Chenyu on 2016/11/7.
+ * 用来显示键盘的popwindow
  */
 public class KeyBoardPopWindow extends PopupWindow{
     public static final String INPUT_LICENSE_COMPLETE = "me.kevingo.licensekeyboard.input.comp";

@@ -104,12 +104,12 @@
         <Key
             android:codes="28"
             android:keyLabel="L"
-            android:keyEdgeFlags="right"  />
+             />
 
         <Key
             android:codes="29"
             android:keyLabel="Z"
-            android:keyEdgeFlags="left"
+            android:keyEdgeFlags="right"
             />
 
     </Row>

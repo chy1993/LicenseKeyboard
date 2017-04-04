@@ -33,17 +33,17 @@
             android:keyLabel="吉" />
         <Key
             android:codes="8"
-            android:keyEdgeFlags="right"
             android:keyLabel="黑" />
 
         <Key
             android:codes="9"
-            android:keyEdgeFlags="left"
+            android:keyEdgeFlags="right"
             android:keyLabel="沪" />
     </Row>
     <Row>
 
         <Key
+            android:keyEdgeFlags="left"
             android:codes="10"
             android:keyLabel="苏" />
         <Key
@@ -66,14 +66,13 @@
             android:keyLabel="鄂" />
         <Key
             android:codes="17"
-            android:keyEdgeFlags="right"
             android:keyLabel="湘" />
         <Key
             android:codes="18"
-            android:keyEdgeFlags="left"
             android:keyLabel="粤"
             />
         <Key
+            android:keyEdgeFlags="right"
             android:codes="19"
             android:keyLabel="桂" />
 
@@ -111,10 +110,10 @@
         <Key
             android:codes="26"
             android:keyLabel="甘"
-            android:keyEdgeFlags="right"
             />
 
         <Key
+            android:keyEdgeFlags="right"
             android:codes="29"
             android:keyLabel="新"
             />

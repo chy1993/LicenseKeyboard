@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Keyboard
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:horizontalGap="4px"
+    android:horizontalGap="0.5%p"
     android:keyHeight="40dp"
     android:verticalGap="4px">
     <Row android:keyWidth="9%p">
         <Key
-            android:codes="0"
             android:keyEdgeFlags="left"
+            android:codes="0"
             android:keyLabel="0"
             />
         <Key
@@ -35,14 +35,14 @@
             android:codes="8"
             android:keyLabel="8" />
         <Key
-            android:codes="9"
             android:keyEdgeFlags="right"
+            android:codes="9"
             android:keyLabel="9" />
     </Row>
     <Row android:keyWidth="9%p">
         <Key
-            android:codes="10"
             android:keyEdgeFlags="left"
+            android:codes="10"
             android:keyLabel="Q"
             />
         <Key
@@ -70,14 +70,14 @@
             android:codes="18"
             android:keyLabel="O" />
         <Key
-            android:codes="19"
             android:keyEdgeFlags="right"
+            android:codes="19"
             android:keyLabel="P" />
     </Row>
     <Row android:keyWidth="9%p">
         <Key
-            android:codes="20"
             android:keyEdgeFlags="left"
+            android:codes="20"
             android:keyLabel="A"
             />
         <Key
@@ -107,9 +107,9 @@
              />
 
         <Key
+            android:keyEdgeFlags="right"
             android:codes="29"
             android:keyLabel="Z"
-            android:keyEdgeFlags="right"
             />
 
     </Row>
@@ -117,6 +117,7 @@
         android:rowEdgeFlags="bottom">
 
         <Key
+            android:keyEdgeFlags="left"
             android:codes="30"
             android:keyLabel="X"
             />
@@ -141,12 +142,13 @@
             android:keyLabel="M"
             />
         <Key
-            android:keyWidth="18.6%p"
+            android:keyWidth="18.5%p"
             android:codes="112"
             android:isRepeatable="true"
             android:keyLabel="退格"
             />
         <Key
+            android:keyEdgeFlags="right"
             android:keyWidth="18.5%p"
             android:codes="66"
             android:keyLabel="完成"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Keyboard
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:horizontalGap="4px"
+    android:horizontalGap="0.5%p"
     android:keyHeight="40dp"
     android:keyWidth="9%p"
     android:verticalGap="4px">
@@ -79,7 +79,6 @@
 
     </Row>
     <Row>
-
         <Key
             android:codes="27"
             android:keyLabel="青"
@@ -111,14 +110,13 @@
             android:codes="26"
             android:keyLabel="甘"
             />
-
         <Key
             android:keyEdgeFlags="right"
             android:codes="29"
             android:keyLabel="新"
             />
     </Row>
-    <Row android:rowEdgeFlags="bottom" android:keyWidth="18.65%p">
+    <Row android:rowEdgeFlags="bottom" android:keyWidth="18.5%p">
         <Key
             android:codes="30"
             android:keyLabel="港"
@@ -134,10 +132,9 @@
         <Key
             android:codes="33"
             android:keyLabel="宁"
-            android:keyEdgeFlags="right"
             />
-
         <Key
+            android:keyEdgeFlags="right"
             android:codes="113"
             android:keyLabel="退格"
             />

@@ -143,7 +143,6 @@ public class LicenseKeyboardUtil {
 //            }
             if (currentEditText == 0){
                 if (primaryCode == 113){
-
                     edits[currentEditText].setText("");
                 }else{
                     if (edits[currentEditText].getText().toString().equals("")){
@@ -166,7 +165,7 @@ public class LicenseKeyboardUtil {
                         keyboardView.setKeyboard(k1);
                     }
                 }else if(primaryCode == 66){
-                    Toast.makeText(ctx,"请输入完整车牌号",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ctx,"请输入完整车牌号！",Toast.LENGTH_SHORT).show();
                     return;
                 } else {
                     if (edits[currentEditText].getText().toString().equals("")){
@@ -188,7 +187,7 @@ public class LicenseKeyboardUtil {
                     }
 
                 }else if(primaryCode == 66){
-                    Toast.makeText(ctx,"请输入完整车牌号",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ctx,"请输入完整车牌号！",Toast.LENGTH_SHORT).show();
                     return;
                 } else {
                     if (edits[currentEditText].getText().toString().equals("")){
